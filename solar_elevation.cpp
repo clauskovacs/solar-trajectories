@@ -1,7 +1,7 @@
 // Calculate the solar trajectories according to http://www.esrl.noaa.gov/gmd/grad/solcalc/calcdetails.html
 #include <math.h>
 
-#include "solar_elevation.h"
+#include "solar_elevation.hpp"
 
 double julian_date(float hour, float minute, float seconds, float day, float month, float year)
 {
