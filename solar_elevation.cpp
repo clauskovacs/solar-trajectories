@@ -36,7 +36,7 @@ sun_position calculate_sun_position(float latitude, float longitude, float hours
 {
 	sun_position computed_position;
 
-	float time_past_local_midnight = (minutes / 3600) / 24 + (minutes / 60) / 24 + hours / 24;
+	float time_past_local_midnight = (seconds / 3600) / 24 + (minutes / 60) / 24 + hours / 24;
 
 	float JD = julian_date(hours, minutes, seconds, day, month, year);
 
